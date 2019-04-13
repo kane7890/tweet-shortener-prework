@@ -46,6 +46,7 @@ end
 def selective_tweet_shortener(tweet)
 #  binding.pry
   if tweet.length > 140
+<<<<<<< HEAD
     subtweet=word_substituter(tweet)
   else
     subtweet=tweet
@@ -62,5 +63,9 @@ def shortened_tweet_truncator(tweet)
     end
   end
   subtweet
+=======
+    tweet=word_substituter(tweet)
+  end
+>>>>>>> 0f7d0195df4c03f5497303131a6696ef7417451e
 end
   
